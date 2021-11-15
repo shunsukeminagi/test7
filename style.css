@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*PC表示*/
+div {
+  width: 600px;
+}
+
+/*タブレット表示*/
+@media (max-width: 1200px) and (min-width: 768px) {
+    div{
+      width: 400px;
+    }
+}
+
+/*スマホ表示*/
+@media (max-width: 767px) {
+   div{
+     width: 200px;
+   }
+}
+ 
+.container{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(backgroundのコピー.png);
+    background-position: center;
+    background-size: cover;
+    width: 1600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}    
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+    
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    color: #232d60;
+    margin-top: 100px;
+}
+
+.content p{
+    font-size: 40px;
+    color: #665b5b;
+}
+
+.about{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(浴衣写真のコピー.png);
+    background-position: center;
+    height: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    box-sizing: border-box;
+    position: relative;
+}    
+
+.skills{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(mainのコピー.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;   
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}    
+
+.vision{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(oのコピー.png);
+    background-position: center;
+    background-size: 10p;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}    
+
+.links:hover {
+    opacity: 0.7;
+}
+
+a{
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+  }
+  
+  a:hover{
+    background-position: -100% 0;
+    color: #fff;
+  }
+
+  p{
+      line-height: 1.7;
+  }
+
+  .demo{
+    text-align: center;
+    font-size: 40px;
+  }
+  .demo li{
+    display: inline;
+  }
+ 
+  .insta{
+    width: 40px;
+    cursor: pointer;
+
+  }
+
+  .twitter{
+    width: 40px;
+    cursor: pointer;
+
+  }
+
+  .youtube{
+    width: 40px;
+    cursor: pointer;
+
+  }
+
+  .お問い合わせ{
+    width: 50px;
+    cursor: pointer;
+  }
+
+  .col-md-12{
+    size: 500;
+    text-align: center;
+  }
